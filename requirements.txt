@@ -1,0 +1,42 @@
+# Core Framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+python-dotenv>=1.0.0
+
+# PDF Processing - CORRECT package name for PyMuPDF
+PyMuPDF>=1.23.0
+
+# LLM & Embeddings
+openai>=1.33.0
+tiktoken>=0.5.6
+
+# Vector Store
+chromadb>=0.4.18
+
+# Search & Retrieval
+sentence-transformers>=2.3.2
+rank-bm25>=0.2.0
+
+# Utilities
+numpy>=1.24.0
+pandas>=2.1.0
+tqdm>=4.66.0
+
+# Optional: UI
+streamlit>=1.29.0
+
+# Dev & Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+httpx>=0.25.0
+
+# UI 
+plotly>=6.3.1
+
+# Authentification
+python-jose[cryptography]>=3.3.0
+passlib==1.7.4
+bcrypt==4.0.1
+python-multipart>=0.0.6
